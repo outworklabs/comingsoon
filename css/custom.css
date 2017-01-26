@@ -1,0 +1,118 @@
+body {
+    background-color: #48d2bd;
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+}
+
+.slogan {
+    font-size: 60px;
+    padding-top: 160px;
+    line-height: 1;
+}
+
+.sub-slogan {
+    font-size: 26px;
+    padding-top: 46px;
+    color: #d6f2e4;
+    line-height: 1;
+}
+
+.footnote {
+    font-size: 20px;
+    padding-top: 220px;
+    margin-bottom: 40px;
+}
+
+.socials a {
+    padding: 12px;
+    min-width: 20px;
+    line-height: 1;
+}
+
+.socials a:hover {
+    background: #000;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 12px 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.url {
+    display: inline-block;
+    background: #000;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 30px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.url {
+    text-decoration: none;
+}
+
+.url:hover {
+    background: #000;
+    background: rgba(0, 0, 0, 0.10);
+    padding: 30px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#view-source {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;
+}
+
+@media only screen and (max-width: 680px) {
+    .slogan {
+        font-size: 36px;
+        padding-top: 160px;
+        line-height: 1;
+    }
+    .sub-slogan {
+        font-size: 18px;
+        line-height: 1;
+    }
+    #view-source {
+        display: none;
+    }
+    .footnote {
+        font-size: 20px;
+        padding-top: 120px;
+        margin-bottom: 60px;
+    }
+}
